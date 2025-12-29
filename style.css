@@ -1,0 +1,243 @@
+ 
+/* banner section */
+ .section{
+    display: flex;
+    justify-content: center;
+ }
+ .outer-div{
+    margin: 30px 160px;
+    width: 1280px;
+    height: 560px;
+     
+}
+.banner{
+    
+    background-color: #C6E4D6;
+    border-radius: 24PX;
+    padding: 100px 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 160px;
+}
+.banner-heading{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+}
+.banner-pera{
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 56px;
+}
+.banner-button{
+    width: 270px;
+    height: 56px;
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    border-radius: 8px;
+
+}
+/* main */
+ 
+/* vission part */
+
+.title{
+    font-size: 40;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+/* shared peragraph style */
+
+.vision-div-pera{
+    font-size: 16px;
+
+}
+.vision-div-heading{
+    font-size: 20;
+    font-weight: bold;
+}
+/* div section */
+.vission-inner-div-2{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 30px;
+     
+}
+.div-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    border-radius: 16px;
+}
+.div-1>button{
+    background-color: #5490F5 ;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding:11px 20px;
+}
+.div-2{
+    background-color: #C6E4D6;
+    padding: 32px;
+    border-radius: 16px;
+}
+.div-2>button{
+    background-color: #09A15C ;
+    color: white;
+    border-radius: 8px;
+    padding:11px 20px;
+    border: none;
+}
+.div-3{
+    background-color: #F7EBCF;
+    padding: 32px;
+    border-radius: 16px;
+}
+.div-3>button{
+    background-color: #FFC239 ;
+    color: white;
+    border-radius: 8px;
+    padding:11px 20px;
+    border: none;
+}
+.vision-inner-div-3{
+    padding: 48px 24px;
+    border-radius: 10px; 
+    background-color:rgb(230, 229, 229);
+    
+}
+.pera-name{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+}
+.pera{
+     
+}
+.quote{
+     position: absolute;
+     
+    z-index: -5px;
+} 
+  
+/*shared news style */
+
+.news-box2 , .news-box3{
+    display: flex;
+    justify-content: space-between;
+    width: 1280;
+    height: 402px;
+    padding: 48px 48px;
+    gap: 32px;
+    border-radius: 24px;
+    margin-bottom: 24px;
+    background-color:rgb(230, 229, 229) ;
+
+}
+.satalite-img{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+.news-details{
+    width: 744px;
+    height: 290px;
+
+}
+.btn{
+    width: 139px;
+    height: 48px;
+    padding:13px 26px;
+    background-color: #006A50;
+    border-radius: 8px;
+    color: white;
+    border: none;
+}
+
+/* donation box */
+
+
+.donation-box{
+    width: 1280px;
+    height: 467px;
+    text-align: center;
+     
+     
+}
+/* shared  */
+
+.t1,.p1 {
+    text-align: center;
+   
+}
+.div-for-hp {
+    height: 120px;
+}
+
+.amount-box{
+     
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+    
+    text-align: center;
+    gap: 24px;
+}
+.box{
+    width: 252px;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 40px;
+    border-radius: 16px; 
+    background-color: rgb(230, 229, 229);
+     
+    
+}
+span{
+    font-size: 40px;
+    font-weight: bold;
+}
+.takar-box2{
+    background-color: #C6E4D6;
+}
+.input-amount{
+    width: 1032px;
+    height: 50px;
+    padding: 20px 40px;
+    margin: 24px 0px; 
+    text-align: center; 
+}
+
+ 
+/* subscribe part */
+
+ 
+.subscribe{
+    height:235px ;
+    background-color:#C6E4D6 ;
+     text-align: center;
+    padding: 80px 265px;
+    border-radius: 24px;  
+}
+.mail-and-button{
+     display: flex;
+     justify-content: center;
+}
+.input-email{
+    height: 55px;
+    width: 600px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+}
+.subscribe-btn   {
+    height: 57px;
+    width: 150px;
+    padding:13px 26px;
+    background-color: #006A50;
+    border-radius: 0px 8px 8px 0px;
+    color: white;
+    border: none;
+}
